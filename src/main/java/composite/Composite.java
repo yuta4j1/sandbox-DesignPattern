@@ -8,6 +8,7 @@ import java.util.Queue;
 public class Composite extends Component {
 
 	private String id;
+	/* 単一要素と複合要素を同様に扱えるリスト */
 	private List<Component> childComponents = new ArrayList<>();
 	private Queue<Composite> compositeQueue = new ArrayDeque<>();
 
